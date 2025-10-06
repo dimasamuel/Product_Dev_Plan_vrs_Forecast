@@ -13,7 +13,7 @@ st.title("Product_Dev_Plan_vrs_Forecast")
 st.subheader("Modelación y Simulación.")
 
 # Leer el CSV
-df = pd.read_csv("forecast_underperform.csv")
+df = pd.read_csv("https://drive.google.com/uc?export=download&id=1znQwggRt78KyJs-KlBWWsYSTyFkPPoa6")
 
 # Función para colorear filas en base a la columna "Ventas"
 def highlight_row(row):
@@ -55,7 +55,7 @@ st.write(df.iloc[fila_seleccionada])
 
 #-------------------------------------------------------
 # grafica
-data = pd.read_csv("historical_forecast_sales.csv")
+data = pd.read_csv("https://drive.google.com/uc?export=download&id=1TQbbnMCzZT4udXCfX-6VBfDxR-HE49e2")
 data['date'] = pd.to_datetime(data['date'])
 
 # --- Simular plan financiero ---
